@@ -9,6 +9,7 @@ entity spi is
     CLK : in std_logic;
     -- Clock enable, synchronous to CLK
     c_en : in boolean;
+    final_signal : in std_logic
   );
 end spi;
 
