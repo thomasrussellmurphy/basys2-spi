@@ -13,7 +13,7 @@ entity spi is
   );
 end spi;
 
-architecture RTL of lfsr is
+architecture RTL of spi is
   -- internal signals
 begin
   -- logic and processes
